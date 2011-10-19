@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="no.ntnu.item.arctis.ARCTIS_RUNTIME_CONTAINER"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.discovery"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.proxies"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.examples.discovery"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.swing"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

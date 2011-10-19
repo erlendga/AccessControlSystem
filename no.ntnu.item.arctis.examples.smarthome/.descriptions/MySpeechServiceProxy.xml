@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="My Speech Service Proxy" 
+    author="Frank Alexander Kraemer" 
+    provider="NTNU - Department of Telematics" 
+    purpose="Proxy to use the speech service." 
+    uuid="_4UuUAeO0EeCzEqDg93tgvA" 
+    status="published" 
+    type="block" 
+    >
+    <required>
+        <block name="c1" uuid="_DnhZAdbzEeCI45-47HVexA"/>
+        <block name="c0" uuid="_-qgr4NQSEeCLMf4FTwLQyQ"/>
+    </required>
+</block>

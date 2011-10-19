@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="HomeSystem" 
+    uuid="_ALKjQOOeEeCI1e2xLyBsOA" 
+    status="under construction" 
+    type="system" 
+    >
+    <required>
+        <block name="c1" uuid="_8M_uUdQXEeCLMf4FTwLQyQ"/>
+        <block name="c2" uuid="_vaxhkOBjEeCLL8ByUWbObg"/>
+        <block name="c0" uuid="_ciHZUNQJEeCLMf4FTwLQyQ"/>
+        <block name="c4" uuid="__UVMceOeEeCI1e2xLyBsOA"/>
+        <block name="c3" uuid="_lqfkMuBsEeCLL8ByUWbObg"/>
+    </required>
+</block>

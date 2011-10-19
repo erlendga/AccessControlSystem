@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Room Control App" 
+    uuid="_lqfkMuBsEeCLL8ByUWbObg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c0" uuid="_fzpGQeHEEeCQ66mgHAj8gw"/>
+    </required>
+</block>

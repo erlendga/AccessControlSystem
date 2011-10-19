@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="HomeSystem3" 
+    uuid="_4rNQEuhDEeCdCcPwzhoA8w" 
+    status="under construction" 
+    type="system" 
+    >
+    <required>
+        <block name="c1" uuid="_EwppMeO1EeCzEqDg93tgvA"/>
+        <block name="c0" uuid="_fzpGQeHEEeCQ66mgHAj8gw"/>
+        <block name="c3" uuid="_ciHZUNQJEeCLMf4FTwLQyQ"/>
+    </required>
+</block>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Room" 
+    uuid="_vaxhkOBjEeCLL8ByUWbObg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c2" uuid="_EwppMeO1EeCzEqDg93tgvA"/>
+        <block name="c0" uuid="_0R3GIuCAEeCLL8ByUWbObg"/>
+    </required>
+</block>

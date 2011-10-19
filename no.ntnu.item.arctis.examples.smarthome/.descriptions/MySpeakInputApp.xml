@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="My Speak Input App" 
+    author="Frank Alexander Kraemer" 
+    provider="NTNU - Department of Telematics" 
+    uuid="_EwppMeO1EeCzEqDg93tgvA" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c1" uuid="_Df6tYm5pEd-K4KXuM9kvIA"/>
+        <block name="c2" uuid="_reBcINXBEd693-y1RACO_Q"/>
+        <block name="c0" uuid="_MJUNMNR9EeCXoZJA8dhRlg"/>
+    </required>
+</block>

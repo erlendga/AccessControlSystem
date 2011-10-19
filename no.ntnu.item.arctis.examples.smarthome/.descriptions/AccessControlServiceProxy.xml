@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Access Control Service Proxy" 
+    uuid="_ek5mQuCHEeCLL8ByUWbObg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c1" uuid="_DnhZAdbzEeCI45-47HVexA"/>
+        <block name="c0" uuid="_-qgr4NQSEeCLMf4FTwLQyQ"/>
+    </required>
+</block>

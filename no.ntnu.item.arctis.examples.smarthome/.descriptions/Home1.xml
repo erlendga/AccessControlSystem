@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Home1" 
+    uuid="_d1eHYeRLEeCFYMY4DmwMyQ" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c0" uuid="_xWWQEdRzEeCLMf4FTwLQyQ"/>
+    </required>
+</block>

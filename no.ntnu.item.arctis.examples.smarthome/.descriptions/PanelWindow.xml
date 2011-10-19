@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Panel Window" 
+    author="Frank Alexander Kraemer" 
+    provider="NTNU - Department of Telematics" 
+    uuid="_vOMloeO6EeCX6s17V9tcqw" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c1" uuid="_OUgmUFeJEd-6BOcoDEhEvw"/>
+        <block name="c0" uuid="_e60kMc7EEd6sZq9FoFJzVg"/>
+    </required>
+</block>

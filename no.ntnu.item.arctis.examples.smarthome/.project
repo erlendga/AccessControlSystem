@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>no.ntnu.item.arctis.examples.smarthome</name>
+	<comment></comment>
+	<projects>
+		<project>no.ntnu.item.arctis.library.discovery</project>
+		<project>no.ntnu.item.arctis.library.proxies</project>
+		<project>no.ntnu.item.arctis.examples.ttm4115.acs</project>
+		<project>no.ntnu.item.arctis.examples.discovery</project>
+		<project>no.ntnu.item.arctis.library.swing</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>no.ntnu.item.arctis.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

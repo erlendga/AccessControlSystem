@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="My Speech Service" 
+    author="Frank Alexander Kraemer" 
+    provider="NTNU - Department of Telematics" 
+    uuid="_n9wsoeO0EeCzEqDg93tgvA" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c2" uuid="_n9ws1uO0EeCzEqDg93tgvA"/>
+        <block name="c0" uuid="_OUwecOHNEeCQ66mgHAj8gw"/>
+        <block name="c3" uuid="_n9ws7-O0EeCzEqDg93tgvA"/>
+    </required>
+</block>
