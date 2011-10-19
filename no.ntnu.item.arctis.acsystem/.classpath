@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="no.ntnu.item.arctis.ARCTIS_RUNTIME_CONTAINER"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.proxies"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.discovery"/>
+	<classpathentry kind="src" path="/com.bitreactive.library.android.core"/>
+	<classpathentry kind="src" path="/com.bitreactive.library.android.dialogs"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
