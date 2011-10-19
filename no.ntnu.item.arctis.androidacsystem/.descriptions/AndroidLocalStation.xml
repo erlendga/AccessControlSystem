@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="AndroidLocalStation" 
+    uuid="_0Lb9c_o8EeCXx8L99XuxvA" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c1" uuid="_94GQMeH3EeCKQv4llUXfRg"/>
+        <block name="c2" uuid="_8A22Ed6nEeCsi6itJ7ep6w"/>
+        <block name="c0" uuid="_ciHZUNQJEeCLMf4FTwLQyQ"/>
+    </required>
+</block>
