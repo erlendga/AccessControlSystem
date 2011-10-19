@@ -9,5 +9,7 @@
 	<classpathentry kind="src" path="/com.bitreactive.library.android.core"/>
 	<classpathentry kind="src" path="/com.bitreactive.library.android.dialogs"/>
 	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.proxies"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.android"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/no.ntnu.item.arctis.library.objects"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

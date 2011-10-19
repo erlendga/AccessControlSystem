@@ -84,7 +84,22 @@
       <node xmi:type="uml:AddVariableValueAction" xmi:id="_0-GekPo-EeCXx8L99XuxvA" name="sv0" outgoing="_P9ePEPo_EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA" variable="_qDu4MPo9EeCXx8L99XuxvA">
         <value xmi:id="_0-Gekfo-EeCXx8L99XuxvA" name="value" incoming="_6zoukPo-EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA" type="_vo_QgPo9EeCXx8L99XuxvA"/>
       </node>
-      <node xmi:type="uml:ForkNode" xmi:id="_H7zesPo_EeCXx8L99XuxvA" name="f0" outgoing="_R0mv0Po_EeCXx8L99XuxvA" incoming="_P9ePEPo_EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
+      <node xmi:type="uml:ForkNode" xmi:id="_H7zesPo_EeCXx8L99XuxvA" name="f0" outgoing="_R0mv0Po_EeCXx8L99XuxvA _Ous1MPpHEeCpQqpj4hsq-g" incoming="_P9ePEPo_EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_JDieoPpGEeCX14fL2jCU9A" name="c3" inPartition="_0LckgPo8EeCXx8L99XuxvA">
+        <argument xmi:id="_JDn-MPpGEeCX14fL2jCU9A" name="start" incoming="_Ous1MPpHEeCpQqpj4hsq-g" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
+        <argument xmi:id="_JDrokPpGEeCX14fL2jCU9A" name="denied" inPartition="_0LckgPo8EeCXx8L99XuxvA">
+          <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.android/LoginUI.uml#_7OV8ACH5Ed-VKpFcXjmojQ"/>
+        </argument>
+        <argument xmi:id="_JDsPoPpGEeCX14fL2jCU9A" name="ok" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
+        <result xmi:id="_JDmwEPpGEeCX14fL2jCU9A" name="loggedOn" inPartition="_0LckgPo8EeCXx8L99XuxvA">
+          <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.android/LoginUI.uml#_ywNDUO8TEd-vtdzLyx8eOA"/>
+        </result>
+        <result xmi:id="_JDnXIPpGEeCX14fL2jCU9A" name="cancel" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
+        <result xmi:id="_JDqacPpGEeCX14fL2jCU9A" name="login" inPartition="_0LckgPo8EeCXx8L99XuxvA">
+          <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.android/LoginUI.uml#_ywNDUO8TEd-vtdzLyx8eOA"/>
+        </result>
+        <behavior xmi:type="uml:Activity" href="../no.ntnu.item.arctis.library.android/LoginUI.uml#_rGg80CH5Ed-VKpFcXjmojQ"/>
+      </node>
       <edge xmi:type="uml:ControlFlow" xmi:id="_3rjOMPo8EeCXx8L99XuxvA" name="e2" source="_3qYwkPo8EeCXx8L99XuxvA" target="_3re8wPo8EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_3rkcUPo8EeCXx8L99XuxvA" name="e3" source="_3rgK4Po8EeCXx8L99XuxvA" target="_3q6VAfo8EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_3rlqcPo8EeCXx8L99XuxvA" name="e0" source="_3qeQIfo8EeCXx8L99XuxvA" target="_3rXA8Po8EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
@@ -97,7 +112,8 @@
       <edge xmi:type="uml:ObjectFlow" xmi:id="_6zoukPo-EeCXx8L99XuxvA" name="e10" source="_3rZdMvo8EeCXx8L99XuxvA" target="_0-Gekfo-EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_P9ePEPo_EeCXx8L99XuxvA" name="e11" source="_0-GekPo-EeCXx8L99XuxvA" target="_H7zesPo_EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_R0mv0Po_EeCXx8L99XuxvA" name="e1" source="_H7zesPo_EeCXx8L99XuxvA" target="_3qYwkPo8EeCXx8L99XuxvA" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
-      <group xmi:type="uml:ActivityPartition" xmi:id="_0LckgPo8EeCXx8L99XuxvA" name="main" node="_3qYwkPo8EeCXx8L99XuxvA _3qeQIfo8EeCXx8L99XuxvA _3qmL8Po8EeCXx8L99XuxvA _3qnaEfo8EeCXx8L99XuxvA _3qpPQfo8EeCXx8L99XuxvA _3q6VAfo8EeCXx8L99XuxvA _3q7jIfo8EeCXx8L99XuxvA _3q8xQfo8EeCXx8L99XuxvA _3q-mcPo8EeCXx8L99XuxvA _3rF7Mfo8EeCXx8L99XuxvA _3rHJUfo8EeCXx8L99XuxvA _3rIXcPo8EeCXx8L99XuxvA _3rKMoPo8EeCXx8L99XuxvA _3rLawPo8EeCXx8L99XuxvA _3rXA8Po8EeCXx8L99XuxvA _3rYPEfo8EeCXx8L99XuxvA _3rZdMvo8EeCXx8L99XuxvA _3rbSYPo8EeCXx8L99XuxvA _3rb5cfo8EeCXx8L99XuxvA _3rdHkfo8EeCXx8L99XuxvA _3re8wPo8EeCXx8L99XuxvA _3rgK4Po8EeCXx8L99XuxvA _4-6eEPo9EeCXx8L99XuxvA _0-GekPo-EeCXx8L99XuxvA _0-Gekfo-EeCXx8L99XuxvA _H7zesPo_EeCXx8L99XuxvA" edge="_3rjOMPo8EeCXx8L99XuxvA _3rkcUPo8EeCXx8L99XuxvA _3rlqcPo8EeCXx8L99XuxvA _3rnfoPo8EeCXx8L99XuxvA _3rotwPo8EeCXx8L99XuxvA _3rp74Po8EeCXx8L99XuxvA _3rrKAPo8EeCXx8L99XuxvA _6zpyIPo9EeCXx8L99XuxvA _879icPo9EeCXx8L99XuxvA _6zoukPo-EeCXx8L99XuxvA _P9ePEPo_EeCXx8L99XuxvA _R0mv0Po_EeCXx8L99XuxvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Ous1MPpHEeCpQqpj4hsq-g" name="e12" source="_H7zesPo_EeCXx8L99XuxvA" target="_JDn-MPpGEeCX14fL2jCU9A" inPartition="_0LckgPo8EeCXx8L99XuxvA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_0LckgPo8EeCXx8L99XuxvA" name="main" node="_3qYwkPo8EeCXx8L99XuxvA _3qeQIfo8EeCXx8L99XuxvA _3qmL8Po8EeCXx8L99XuxvA _3qnaEfo8EeCXx8L99XuxvA _3qpPQfo8EeCXx8L99XuxvA _3q6VAfo8EeCXx8L99XuxvA _3q7jIfo8EeCXx8L99XuxvA _3q8xQfo8EeCXx8L99XuxvA _3q-mcPo8EeCXx8L99XuxvA _3rF7Mfo8EeCXx8L99XuxvA _3rHJUfo8EeCXx8L99XuxvA _3rIXcPo8EeCXx8L99XuxvA _3rKMoPo8EeCXx8L99XuxvA _3rLawPo8EeCXx8L99XuxvA _3rXA8Po8EeCXx8L99XuxvA _3rYPEfo8EeCXx8L99XuxvA _3rZdMvo8EeCXx8L99XuxvA _3rbSYPo8EeCXx8L99XuxvA _3rb5cfo8EeCXx8L99XuxvA _3rdHkfo8EeCXx8L99XuxvA _3re8wPo8EeCXx8L99XuxvA _3rgK4Po8EeCXx8L99XuxvA _4-6eEPo9EeCXx8L99XuxvA _0-GekPo-EeCXx8L99XuxvA _0-Gekfo-EeCXx8L99XuxvA _H7zesPo_EeCXx8L99XuxvA _JDieoPpGEeCX14fL2jCU9A _JDmwEPpGEeCX14fL2jCU9A _JDnXIPpGEeCX14fL2jCU9A _JDn-MPpGEeCX14fL2jCU9A _JDqacPpGEeCX14fL2jCU9A _JDrokPpGEeCX14fL2jCU9A _JDsPoPpGEeCX14fL2jCU9A" edge="_3rjOMPo8EeCXx8L99XuxvA _3rkcUPo8EeCXx8L99XuxvA _3rlqcPo8EeCXx8L99XuxvA _3rnfoPo8EeCXx8L99XuxvA _3rotwPo8EeCXx8L99XuxvA _3rp74Po8EeCXx8L99XuxvA _3rrKAPo8EeCXx8L99XuxvA _6zpyIPo9EeCXx8L99XuxvA _879icPo9EeCXx8L99XuxvA _6zoukPo-EeCXx8L99XuxvA _P9ePEPo_EeCXx8L99XuxvA _R0mv0Po_EeCXx8L99XuxvA _Ous1MPpHEeCpQqpj4hsq-g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3q6VAPo8EeCXx8L99XuxvA" name="no.ntnu.item.arctis.library.proxies.Address"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3rF7MPo8EeCXx8L99XuxvA" name="android.app.Activity"/>
@@ -151,4 +167,11 @@
   <graphics:Shape xmi:id="_TqZMwPo_EeCXx8L99XuxvA" aux1="-83 36 117 -72  -209 36 9 -72 " base_Element="_R0mv0Po_EeCXx8L99XuxvA"/>
   <arctis:event xmi:id="_kd4_IPo_EeCXx8L99XuxvA" base_Transition="_kd170Po_EeCXx8L99XuxvA" triggers="_3qeQIfo8EeCXx8L99XuxvA"/>
   <arctis:event xmi:id="_mEa4EPo_EeCXx8L99XuxvA" base_Transition="_mEZp8Po_EeCXx8L99XuxvA" effects="_3qmL8Po8EeCXx8L99XuxvA"/>
+  <graphics:Shape xmi:id="_JGRCgPpGEeCX14fL2jCU9A" x="18" y="18" base_Element="_JDmwEPpGEeCX14fL2jCU9A" orientation="south"/>
+  <graphics:Shape xmi:id="_JGRpkPpGEeCX14fL2jCU9A" x="90" y="90" base_Element="_JDnXIPpGEeCX14fL2jCU9A" orientation="south"/>
+  <graphics:Shape xmi:id="_JGSQoPpGEeCX14fL2jCU9A" x="1" y="36" base_Element="_JDqacPpGEeCX14fL2jCU9A" orientation="east"/>
+  <graphics:Shape xmi:id="_JGSQofpGEeCX14fL2jCU9A" x="18" y="18" base_Element="_JDn-MPpGEeCX14fL2jCU9A" orientation="north"/>
+  <graphics:Shape xmi:id="_JGSQovpGEeCX14fL2jCU9A" x="1" y="36" base_Element="_JDrokPpGEeCX14fL2jCU9A" orientation="west"/>
+  <graphics:Shape xmi:id="_JGS3sPpGEeCX14fL2jCU9A" x="1" y="72" base_Element="_JDsPoPpGEeCX14fL2jCU9A" orientation="west"/>
+  <graphics:Shape xmi:id="_JGTewPpGEeCX14fL2jCU9A" x="846" y="396" width="216" height="180" base_Element="_JDieoPpGEeCX14fL2jCU9A"/>
 </xmi:XMI>
