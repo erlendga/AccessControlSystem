@@ -43,8 +43,8 @@
   <arctis:system xmi:id="_bUob8Po8EeCXx8L99XuxvA" base_Activity="_bUn04Po8EeCXx8L99XuxvA"/>
   <graphics:Shape xmi:id="_bUuikPo8EeCXx8L99XuxvA" x="250" y="220" width="120" height="70" base_Element="_bUpDAPo8EeCXx8L99XuxvA"/>
   <graphics:Shape xmi:id="_bUvJofo8EeCXx8L99XuxvA" x="180" y="55" width="613" height="54" base_Element="_bUn04Po8EeCXx8L99XuxvA"/>
-  <graphics:Shape xmi:id="_bUvwsPo8EeCXx8L99XuxvA" x="180" y="90" width="613" height="415" base_Element="_bUvJoPo8EeCXx8L99XuxvA"/>
-  <graphics:Shape xmi:id="_rxq2IPo8EeCXx8L99XuxvA" x="241" y="157" base_Element="_rxnLwPo8EeCXx8L99XuxvA" orientation="south"/>
+  <graphics:Shape xmi:id="_bUvwsPo8EeCXx8L99XuxvA" x="180" y="108" width="613" height="415" base_Element="_bUvJoPo8EeCXx8L99XuxvA"/>
+  <graphics:Shape xmi:id="_rxq2IPo8EeCXx8L99XuxvA" x="243" y="135" base_Element="_rxnLwPo8EeCXx8L99XuxvA" orientation="south"/>
   <graphics:Shape xmi:id="_rxuggPo8EeCXx8L99XuxvA" x="459" y="225" width="37" height="37" base_Element="_rxsEQPo8EeCXx8L99XuxvA" orientation="south"/>
   <graphics:Shape xmi:id="_ryA0YPo8EeCXx8L99XuxvA" x="103" y="124" base_Element="_rx4RgPo8EeCXx8L99XuxvA" orientation="east"/>
   <graphics:Shape xmi:id="_ryCCgPo8EeCXx8L99XuxvA" x="18" y="18" base_Element="_ryA0Yfo8EeCXx8L99XuxvA" orientation="north"/>
@@ -53,6 +53,6 @@
   <graphics:Shape xmi:id="_ryIwMPo8EeCXx8L99XuxvA" x="216" y="180" width="198" height="180" aux1="normal" base_Element="_rxvuoPo8EeCXx8L99XuxvA" orientation="south"/>
   <graphics:Shape xmi:id="_ryUWYPo8EeCXx8L99XuxvA" aux1="76 0 0 36 " base_Element="_ryTvUPo8EeCXx8L99XuxvA"/>
   <graphics:Shape xmi:id="_RTnNgPo9EeCXx8L99XuxvA" x="3" y="124" base_Element="_RTlYUPo9EeCXx8L99XuxvA" orientation="west"/>
-  <graphics:Shape xmi:id="_RTnNgfo9EeCXx8L99XuxvA" x="3" y="60" base_Element="_RTkKMPo9EeCXx8L99XuxvA" orientation="west"/>
-  <graphics:Shape xmi:id="_RToboPo9EeCXx8L99XuxvA" x="522" y="180" width="198" height="163" aux1="single" base_Element="_RTht8Po9EeCXx8L99XuxvA"/>
+  <graphics:Shape xmi:id="_RTnNgfo9EeCXx8L99XuxvA" x="-7" y="54" base_Element="_RTkKMPo9EeCXx8L99XuxvA" orientation="west"/>
+  <graphics:Shape xmi:id="_RToboPo9EeCXx8L99XuxvA" x="522" y="180" width="198" height="181" aux1="single" base_Element="_RTht8Po9EeCXx8L99XuxvA"/>
 </xmi:XMI>

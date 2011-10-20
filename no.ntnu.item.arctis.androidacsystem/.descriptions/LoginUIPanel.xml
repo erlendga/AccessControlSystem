@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Login UI Panel" 
+    uuid="_KooBkfpQEeCxGYbLMX9lAg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <resource path="res/layout/login.xml"/>
+        <block name="c1" uuid="_8A22Ed6nEeCsi6itJ7ep6w"/>
+    </required>
+</block>
