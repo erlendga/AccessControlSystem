@@ -12,4 +12,7 @@
         <block name="c0" uuid="_ciHZUNQJEeCLMf4FTwLQyQ"/>
         <block name="c4" uuid="_KooBkfpQEeCxGYbLMX9lAg"/>
     </required>
+    <extras>
+        <extra key="android_activity" value="no.ntnu.item.arctis.AndroidACSystemActivity"/>
+    </extras>
 </block>

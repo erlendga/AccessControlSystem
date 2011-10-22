@@ -7,6 +7,12 @@
     >
     <required>
         <resource path="res/layout/login.xml"/>
+        <resource path="res/drawable/android_pressed.png"/>
+        <resource path="res/drawable/android_focused.png"/>
+        <resource path="res/drawable/android_normal.png"/>
         <block name="c1" uuid="_8A22Ed6nEeCsi6itJ7ep6w"/>
     </required>
+    <extras>
+        <extra key="android_activity" value="no.ntnu.item.arctis.LoginUIPanelActivity"/>
+    </extras>
 </block>

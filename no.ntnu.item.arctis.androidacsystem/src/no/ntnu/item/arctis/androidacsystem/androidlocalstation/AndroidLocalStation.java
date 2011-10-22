@@ -5,7 +5,6 @@ import no.ntnu.item.arctis.library.objects.login.Credentials;
 import no.ntnu.item.arctis.library.proxies.Address;
 import no.ntnu.item.arctis.runtime.Block;
 import android.app.Activity;
-import android.text.Editable;
 
 public class AndroidLocalStation extends Block {
 
@@ -31,20 +30,6 @@ public class AndroidLocalStation extends Block {
 		return activity;
 	}
 
-	public void addListeners() {
-	//activity.setParentID(blockID);
-	
-		Runnable r = new Runnable() {
-			
-			public void run() {
-				activity.registerButton(R.id.login_btn, "BUTTON", blockID);
-				activity.setEnabled(R.id.login_btn, true);
-				
-			}
-		};
-		activity.runOnUiThread(r);
-	}
-
 	public void validateUsername(Credentials credentials) {
 		String username = credentials.getUserName();
 		if (username.equals("erlend") || username.equals("erlendga")) {
@@ -68,6 +53,11 @@ public class AndroidLocalStation extends Block {
 		else {
 			sendToBlock("PASS_NOK");
 		}
+	}
+
+	public String getMessage(Credentials credentials) {
+		String message = "Welcome in " + credentials.getUserName();
+		return message;
 	}
 
 }

@@ -7,11 +7,11 @@ import no.ntnu.item.arctis.library.objects.login.Credentials;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
-import android.text.Editable;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
@@ -43,6 +43,7 @@ public class LoginUIPanel extends AndroidBlock {
 	private Button button0;
 	private ArrayList<String> password = new ArrayList<String>();
 	public no.ntnu.item.arctis.LoginUIPanelActivity activity;
+	private ImageView imageView;
 	
 	
 	public void registerValidateButtonListener() {
@@ -51,9 +52,6 @@ public class LoginUIPanel extends AndroidBlock {
 //			descriptionField.setText(description);
 //			descriptionField.setVisibility(TextView.VISIBLE);
 //		}
-		
-		TextView titleView = (TextView) activity.findViewById(R.id.titleField);
-		titleView.setText(title);
 		
 		button1 = (Button) activity.findViewById(R.id.button1);
 		button2 = (Button) activity.findViewById(R.id.button2);
@@ -67,6 +65,8 @@ public class LoginUIPanel extends AndroidBlock {
 		button0 = (Button) activity.findViewById(R.id.button0);
 		
 		setAllButtonsEnabeled(false);
+		
+		imageView = (ImageView) activity.findViewById(R.id.android_logo);
 	
 		validateButton = (Button) activity.findViewById(R.id.okButton);
 		viewFlipper = (ViewFlipper) activity.findViewById(R.id.flipper);
@@ -110,14 +110,11 @@ public class LoginUIPanel extends AndroidBlock {
 				validateButton.setEnabled(true);
 				username.setEnabled(true);
 				comment.setText(reason != null ? reason : "");
+				imageView.setImageResource(R.drawable.android_focused);
 //				viewFlipper.showPrevious();
 			}
 		};
 		getHandler().post(r);
-	}
-
-	public Credentials getCredentials() {
-			return new Credentials(username.getText().toString(), "");
 	}
 	
 	private void setAllButtonsEnabeled(boolean enabeled) {
@@ -299,6 +296,40 @@ public class LoginUIPanel extends AndroidBlock {
 		}
 		credentials.setPassword(pword);
 		return credentials;
+	}
+
+	public void finishActivity() {
+		Runnable r = new Runnable() {
+			
+			public void run() {
+				activity.finish();
+			}
+		};
+		activity.runOnUiThread(r);
+	}
+
+	public void loggedOn() {
+		Runnable r = new Runnable() {
+			
+			public void run() {
+				setAllButtonsEnabeled(false);
+				validateButton.setEnabled(true);
+				username.setEnabled(true);
+				imageView.setImageResource(R.drawable.android_normal);
+				
+			}
+		};
+		activity.runOnUiThread(r);
+	}
+
+	public void changeColorToYellow() {
+		Runnable r = new Runnable() {
+			
+			public void run() {
+				imageView.setImageResource(R.drawable.android_pressed);
+			}
+		};
+		activity.runOnUiThread(r);
 	}
 
 }
