@@ -12,19 +12,18 @@ public class CentralStation extends Block {
 //			System.out.println(msg.getPayload());
 			Log.i("message", msg.getPayload().toString());
 			if(msg.getPayload().equals("erlend")){
-				Message response = new Message("un_access"); 
+				Message response = new Message("access"); 
 				response.setReceiver(msg.getSender().getCopy());
 				response.setSender(msg.getReceiver().getCopy());	
-				response.setPayload("");
+				response.setPayload("un_true");
 				return response;
 			}
 			else return null;
 		}
-			else{ 
-//				System.out.println("not String: " + msg.getPayload());
-				Log.i("not string", msg.getPayload().toString());
-				return null;
-			}
+		else{ 
+//			System.out.println("not String: " + msg.getPayload());
+			Log.i("not string or credential object", msg.getPayload().toString());
+			return null;
+		}
 	}
-
 }
