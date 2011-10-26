@@ -8,7 +8,7 @@ import android.app.Activity;
 
 public class AndroidLocalStation extends Block {
 
-	public no.ntnu.item.arctis.AndroidACSystemActivity activity;
+	public no.ntnu.item.arctis.LoginUIPanelActivity activity;
 
 	public Address getLocalAddress() {
 		Address local = new Address();
@@ -65,4 +65,7 @@ public class AndroidLocalStation extends Block {
 		return username;
 	}
 
+	public String setDenyMessage() {
+		return "Access denied";
+	}
 }

@@ -273,9 +273,6 @@ public class LoginUIPanel extends AndroidBlock {
 					sendToBlock("LOGIN");
 				}
 				else {
-					setAllButtonsEnabeled(false);
-					validateButton.setEnabled(true);
-					username.setEnabled(true);
 					sendToBlock("TIMEOUT");
 					comment.setText("Timed out.");
 				}
@@ -284,28 +281,18 @@ public class LoginUIPanel extends AndroidBlock {
 		activity.runOnUiThread(r);
 	}
 
-	public Credentials validateUsername() {
+	public Credentials setUsername() {
 		credentials.setUserName(username.getText().toString());
 		return credentials;
 	}
 
-	public Credentials validatePIN() {
+	public Credentials setPIN() {
 		String pin = "";
 		for (String digit : pinList) {
 			pin += digit;
 		}
 		credentials.setPIN(pin);
 		return credentials;
-	}
-
-	public void finishActivity() {
-		Runnable r = new Runnable() {
-			
-			public void run() {
-				activity.finish();
-			}
-		};
-		activity.runOnUiThread(r);
 	}
 
 	public void loggedOn() {
@@ -326,6 +313,9 @@ public class LoginUIPanel extends AndroidBlock {
 		Runnable r = new Runnable() {
 			
 			public void run() {
+				setAllButtonsEnabeled(false);
+				validateButton.setEnabled(true);
+				username.setEnabled(true);
 				imageView.setImageResource(R.drawable.android_pressed);
 			}
 		};
