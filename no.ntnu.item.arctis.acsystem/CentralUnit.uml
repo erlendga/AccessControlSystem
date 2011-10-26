@@ -46,13 +46,13 @@
   <arctis:system xmi:id="_iJM9gPowEeChXsA8aa9l5w" base_Collaboration="_iFeUEPowEeChXsA8aa9l5w"/>
   <arctis:system xmi:id="_iJNkkPowEeChXsA8aa9l5w" base_Activity="_iJM9gfowEeChXsA8aa9l5w"/>
   <graphics:Shape xmi:id="_iJQA0PowEeChXsA8aa9l5w" x="250" y="220" width="120" height="70" base_Element="_iJOysPowEeChXsA8aa9l5w"/>
-  <graphics:Shape xmi:id="_iJQn4PowEeChXsA8aa9l5w" x="180" y="55" width="613" height="54" base_Element="_iJM9gfowEeChXsA8aa9l5w"/>
-  <graphics:Shape xmi:id="_iJQn4fowEeChXsA8aa9l5w" x="180" y="108" width="613" height="415" base_Element="_iJQA0fowEeChXsA8aa9l5w"/>
-  <graphics:Shape xmi:id="_TBOcUPoxEeCrCqtA_8yVTQ" x="675" y="153" base_Element="_TBMAEPoxEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_iJQn4PowEeChXsA8aa9l5w" x="180" y="54" width="865" height="55" base_Element="_iJM9gfowEeChXsA8aa9l5w"/>
+  <graphics:Shape xmi:id="_iJQn4fowEeChXsA8aa9l5w" x="180" y="108" width="865" height="595" base_Element="_iJQA0fowEeChXsA8aa9l5w"/>
+  <graphics:Shape xmi:id="_TBOcUPoxEeCrCqtA_8yVTQ" x="927" y="243" base_Element="_TBMAEPoxEeCrCqtA_8yVTQ" orientation="south"/>
   <graphics:Shape xmi:id="_TBe7APoxEeCrCqtA_8yVTQ" x="18" y="18" base_Element="_TBdF0PoxEeCrCqtA_8yVTQ" orientation="north"/>
   <graphics:Shape xmi:id="_TBgJIPoxEeCrCqtA_8yVTQ" x="1" y="36" base_Element="_TBe7AfoxEeCrCqtA_8yVTQ" orientation="west"/>
   <graphics:Shape xmi:id="_TBhXQPoxEeCrCqtA_8yVTQ" x="18" y="18" base_Element="_TBgJIfoxEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_TBh-UPoxEeCrCqtA_8yVTQ" x="594" y="288" width="198" height="109" aux1="normal" base_Element="_TBPDYPoxEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_TBjzgPoxEeCrCqtA_8yVTQ" x="594" y="180" width="181" height="55" base_Element="_TBh-UfoxEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_TBm20PoxEeCrCqtA_8yVTQ" x="594" y="216" width="179" height="55" base_Element="_TBkakPoxEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_TBh-UPoxEeCrCqtA_8yVTQ" x="846" y="378" width="198" height="109" aux1="normal" base_Element="_TBPDYPoxEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_TBjzgPoxEeCrCqtA_8yVTQ" x="846" y="270" width="181" height="55" base_Element="_TBh-UfoxEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_TBm20PoxEeCrCqtA_8yVTQ" x="846" y="306" width="179" height="55" base_Element="_TBkakPoxEeCrCqtA_8yVTQ" orientation="south"/>
 </xmi:XMI>
