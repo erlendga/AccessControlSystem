@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <block
     name="Central Station" 
+    uuid="_V7OTkv-oEeC4xL-1PhDw9A" 
     status="under construction" 
     type="block" 
     >
+    <required>
+        <block name="c0" uuid="_hLNyANrFEeCIi-39tB9MXQ"/>
+    </required>
 </block>
