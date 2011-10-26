@@ -60,4 +60,9 @@ public class AndroidLocalStation extends Block {
 		return message;
 	}
 
+	public String getUsername(Credentials credentials) {
+		String username = credentials.getUserName();
+		return username;
+	}
+
 }

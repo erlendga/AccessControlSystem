@@ -41,7 +41,7 @@ public class LoginUIPanel extends AndroidBlock {
 	private Button button8;
 	private Button button9;
 	private Button button0;
-	private ArrayList<String> password = new ArrayList<String>();
+	private ArrayList<String> pinList = new ArrayList<String>();
 	public no.ntnu.item.arctis.LoginUIPanelActivity activity;
 	private ImageView imageView;
 	
@@ -135,7 +135,7 @@ public class LoginUIPanel extends AndroidBlock {
 			
 			public void run() {
 				setAllButtonsEnabeled(true);
-				password.clear();
+				pinList.clear();
 			
 				button1.setOnClickListener(new OnClickListener() {		
 					public void onClick(View v) {			
@@ -205,8 +205,8 @@ public class LoginUIPanel extends AndroidBlock {
 		Runnable r = new Runnable() {
 			
 			public void run() {
-				comment.setText(password.toString());
-				if (password.size() == 4) {
+				comment.setText(pinList.toString());
+				if (pinList.size() == 4) {
 					setAllButtonsEnabeled(false);
 					sendToBlock("PASS_COMPLETE");
 				}
@@ -216,60 +216,60 @@ public class LoginUIPanel extends AndroidBlock {
 	}
 
 	public void pressedOne() {
-		password.add("1");
+		pinList.add("1");
 		buttonClickCondition();
 	}
 
 	public void pressedTwo() {
-		password.add("2");
+		pinList.add("2");
 		buttonClickCondition();
 	}
 
 	public void pressedThree() {
-		password.add("3");
+		pinList.add("3");
 		buttonClickCondition();
 	}
 
 	public void pressedFour() {
-		password.add("4");
+		pinList.add("4");
 		buttonClickCondition();
 	}
 
 	public void pressedFive() {
-		password.add("5");
+		pinList.add("5");
 		buttonClickCondition();
 	}
 
 	public void pressedSix() {
-		password.add("6");
+		pinList.add("6");
 		buttonClickCondition();
 	}
 
 	public void pressedSeven() {
-		password.add("7");
+		pinList.add("7");
 		buttonClickCondition();
 	}
 
 	public void pressedEight() {
-		password.add("8");
+		pinList.add("8");
 		buttonClickCondition();
 	}
 
 	public void pressedNine() {
-		password.add("9");
+		pinList.add("9");
 		buttonClickCondition();
 	}
 
 	public void pressedZero() {
-		password.add("0");
+		pinList.add("0");
 		buttonClickCondition();
 	}
 
-	public void checkPasswordLength() {
+	public void checkPINLength() {
 		Runnable r = new Runnable() {
 			
 			public void run() {
-				if (password.size() == 4) {
+				if (pinList.size() == 4) {
 					sendToBlock("LOGIN");
 				}
 				else {
@@ -289,12 +289,12 @@ public class LoginUIPanel extends AndroidBlock {
 		return credentials;
 	}
 
-	public Credentials validatePassword() {
-		String pword = "";
-		for (String element : password) {
-			pword += element;
+	public Credentials validatePIN() {
+		String pin = "";
+		for (String digit : pinList) {
+			pin += digit;
 		}
-		credentials.setPassword(pword);
+		credentials.setPIN(pin);
 		return credentials;
 	}
 
@@ -330,6 +330,11 @@ public class LoginUIPanel extends AndroidBlock {
 			}
 		};
 		activity.runOnUiThread(r);
+	}
+
+	public void displayACSResponseMessage(String message) {
+		viewFlipper.showNext();
+		comment.setText(message);
 	}
 
 }

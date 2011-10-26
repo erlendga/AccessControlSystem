@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Access Control Service" 
+    uuid="_6Z4ecf-nEeC4xL-1PhDw9A" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c0" uuid="_hLNyANrFEeCIi-39tB9MXQ"/>
+    </required>
+</block>

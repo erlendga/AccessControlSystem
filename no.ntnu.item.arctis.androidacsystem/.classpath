@@ -10,5 +10,7 @@
 	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.proxies"/>
 	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.android"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/no.ntnu.item.arctis.library.objects"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.discovery"/>
+	<classpathentry kind="src" path="/no.ntnu.item.arctis.examples.smarthome"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
