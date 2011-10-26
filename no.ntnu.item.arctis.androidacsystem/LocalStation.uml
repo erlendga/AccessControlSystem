@@ -37,8 +37,10 @@
         </node>
         <node xmi:type="uml:InitialNode" xmi:id="_-ZFbwP-jEeC4xL-1PhDw9A" name="i1" outgoing="_AVpPEP-kEeC4xL-1PhDw9A" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_XCgrwP-oEeC4xL-1PhDw9A" name="c3" inPartition="_bUvJoPo8EeCXx8L99XuxvA">
+          <argument xmi:id="_Eh9AAP-7EeCdhs1bWo4zzA" name="init" incoming="_0pZy8P-6EeCdhs1bWo4zzA" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
           <behavior xmi:type="uml:Activity" href="CentralStation.uml#_V7OTkv-oEeC4xL-1PhDw9A"/>
         </node>
+        <node xmi:type="uml:InitialNode" xmi:id="_yyt-IP-6EeCdhs1bWo4zzA" name="i2" outgoing="_0pZy8P-6EeCdhs1bWo4zzA" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_ryQsAPo8EeCXx8L99XuxvA" name="e0" source="_rxnLwPo8EeCXx8L99XuxvA" target="_ryA0Yfo8EeCXx8L99XuxvA" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_ryShMPo8EeCXx8L99XuxvA" name="e4" source="_ryCpkPo8EeCXx8L99XuxvA" target="_rxsEQPo8EeCXx8L99XuxvA" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_ryTvUPo8EeCXx8L99XuxvA" name="e5" source="_ryG7Afo8EeCXx8L99XuxvA" target="_rxsEQPo8EeCXx8L99XuxvA" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
@@ -47,7 +49,8 @@
         <edge xmi:type="uml:ControlFlow" xmi:id="_0TdPkP-jEeC4xL-1PhDw9A" name="e2" source="_0StosP-jEeC4xL-1PhDw9A" target="_0P3JAP-jEeC4xL-1PhDw9A" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
         <edge xmi:type="uml:ObjectFlow" xmi:id="_0TedsP-jEeC4xL-1PhDw9A" name="e3" source="_0P9PoP-jEeC4xL-1PhDw9A" target="_0TWh4P-jEeC4xL-1PhDw9A" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_AVpPEP-kEeC4xL-1PhDw9A" name="e1" source="_-ZFbwP-jEeC4xL-1PhDw9A" target="_0StosP-jEeC4xL-1PhDw9A" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
-        <group xmi:type="uml:ActivityPartition" xmi:id="_bUvJoPo8EeCXx8L99XuxvA" name="app" node="_rxnLwPo8EeCXx8L99XuxvA _rxsEQPo8EeCXx8L99XuxvA _rxvuoPo8EeCXx8L99XuxvA _rx4RgPo8EeCXx8L99XuxvA _ryA0Yfo8EeCXx8L99XuxvA _ryCpkPo8EeCXx8L99XuxvA _ryG7Afo8EeCXx8L99XuxvA _RTht8Po9EeCXx8L99XuxvA _RTkKMPo9EeCXx8L99XuxvA _RTlYUPo9EeCXx8L99XuxvA _0P3JAP-jEeC4xL-1PhDw9A _0P9PoP-jEeC4xL-1PhDw9A _0StosP-jEeC4xL-1PhDw9A _0SwE8f-jEeC4xL-1PhDw9A _0TWh4P-jEeC4xL-1PhDw9A _0TY-IP-jEeC4xL-1PhDw9A _0TaMQf-jEeC4xL-1PhDw9A _-ZFbwP-jEeC4xL-1PhDw9A _XCgrwP-oEeC4xL-1PhDw9A" edge="_ryQsAPo8EeCXx8L99XuxvA _ryShMPo8EeCXx8L99XuxvA _ryTvUPo8EeCXx8L99XuxvA _ryWLkPo8EeCXx8L99XuxvA _ryXZsPo8EeCXx8L99XuxvA _0TdPkP-jEeC4xL-1PhDw9A _0TedsP-jEeC4xL-1PhDw9A _AVpPEP-kEeC4xL-1PhDw9A"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_0pZy8P-6EeCdhs1bWo4zzA" name="e8" source="_yyt-IP-6EeCdhs1bWo4zzA" target="_Eh9AAP-7EeCdhs1bWo4zzA" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_bUvJoPo8EeCXx8L99XuxvA" name="app" node="_rxnLwPo8EeCXx8L99XuxvA _rxsEQPo8EeCXx8L99XuxvA _rxvuoPo8EeCXx8L99XuxvA _rx4RgPo8EeCXx8L99XuxvA _ryA0Yfo8EeCXx8L99XuxvA _ryCpkPo8EeCXx8L99XuxvA _ryG7Afo8EeCXx8L99XuxvA _RTht8Po9EeCXx8L99XuxvA _RTkKMPo9EeCXx8L99XuxvA _RTlYUPo9EeCXx8L99XuxvA _0P3JAP-jEeC4xL-1PhDw9A _0P9PoP-jEeC4xL-1PhDw9A _0StosP-jEeC4xL-1PhDw9A _0SwE8f-jEeC4xL-1PhDw9A _0TWh4P-jEeC4xL-1PhDw9A _0TY-IP-jEeC4xL-1PhDw9A _0TaMQf-jEeC4xL-1PhDw9A _-ZFbwP-jEeC4xL-1PhDw9A _XCgrwP-oEeC4xL-1PhDw9A _yyt-IP-6EeCdhs1bWo4zzA _Eh9AAP-7EeCdhs1bWo4zzA" edge="_ryQsAPo8EeCXx8L99XuxvA _ryShMPo8EeCXx8L99XuxvA _ryTvUPo8EeCXx8L99XuxvA _ryWLkPo8EeCXx8L99XuxvA _ryXZsPo8EeCXx8L99XuxvA _0TdPkP-jEeC4xL-1PhDw9A _0TedsP-jEeC4xL-1PhDw9A _AVpPEP-kEeC4xL-1PhDw9A _0pZy8P-6EeCdhs1bWo4zzA"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_bUpDAPo8EeCXx8L99XuxvA" name="app"/>
     </packagedElement>
@@ -89,4 +92,6 @@
   <graphics:Shape xmi:id="_0TcogP-jEeC4xL-1PhDw9A" x="810" y="288" width="198" height="109" aux1="normal" base_Element="_0SwE8f-jEeC4xL-1PhDw9A" orientation="south"/>
   <graphics:Shape xmi:id="_-ZHQ8P-jEeC4xL-1PhDw9A" x="873" y="135" base_Element="_-ZFbwP-jEeC4xL-1PhDw9A"/>
   <graphics:Shape xmi:id="_XCjIAP-oEeC4xL-1PhDw9A" x="522" y="396" width="198" height="108" base_Element="_XCgrwP-oEeC4xL-1PhDw9A"/>
+  <graphics:Shape xmi:id="_yyvzUP-6EeCdhs1bWo4zzA" x="603" y="351" base_Element="_yyt-IP-6EeCdhs1bWo4zzA"/>
+  <graphics:Shape xmi:id="_Fcy3oP-7EeCdhs1bWo4zzA" x="75" y="-3" base_Element="_Eh9AAP-7EeCdhs1bWo4zzA" orientation="north"/>
 </xmi:XMI>
