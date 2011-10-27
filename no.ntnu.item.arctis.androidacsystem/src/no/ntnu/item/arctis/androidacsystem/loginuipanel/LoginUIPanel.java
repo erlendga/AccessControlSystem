@@ -27,7 +27,7 @@ public class LoginUIPanel extends AndroidBlock {
 	// Instance parameter. Edit only in overview page.
 	public final java.lang.String title;
 	private TextView descriptionField;
-	private Button validateButton;
+	private Button usernameButton;
 	private ViewFlipper viewFlipper;
 	private EditText username;
 	private TextView comment;
@@ -44,15 +44,10 @@ public class LoginUIPanel extends AndroidBlock {
 	private ArrayList<String> pinList = new ArrayList<String>();
 	public no.ntnu.item.arctis.LoginUIPanelActivity activity;
 	private ImageView imageView;
+	private TextView progress;
 	
 	
 	public void registerValidateButtonListener() {
-//		if(description != null && description.length() > 0){
-//			descriptionField = (TextView) activity.findViewById(R.id.descriptionField);
-//			descriptionField.setText(description);
-//			descriptionField.setVisibility(TextView.VISIBLE);
-//		}
-		
 		button1 = (Button) activity.findViewById(R.id.button1);
 		button2 = (Button) activity.findViewById(R.id.button2);
 		button3 = (Button) activity.findViewById(R.id.button3);
@@ -64,25 +59,23 @@ public class LoginUIPanel extends AndroidBlock {
 		button9 = (Button) activity.findViewById(R.id.button9);
 		button0 = (Button) activity.findViewById(R.id.button0);
 		
-		setAllButtonsEnabeled(false);
+		setPanelButtonsEnabeled(false);
 		
-		imageView = (ImageView) activity.findViewById(R.id.android_logo);
-	
-		validateButton = (Button) activity.findViewById(R.id.okButton);
+		imageView = (ImageView) activity.findViewById(R.id.android_logo);	
+		usernameButton = (Button) activity.findViewById(R.id.okButton);
 		viewFlipper = (ViewFlipper) activity.findViewById(R.id.flipper);
 		username = (EditText) activity.findViewById(R.id.loginDialogUsername);
-		
+		progress = (TextView) activity.findViewById(R.id.progressTextField);	
 		comment = (TextView) activity.findViewById(R.id.messageField);
-		
 		credentials = new Credentials();
 		
-		validateButton.setOnClickListener(new OnClickListener() {
+		usernameButton.setOnClickListener(new OnClickListener() {
 			public void onClick(View arg0) {
-				storeCredentials();
-				
-				validateButton.setEnabled(false);
+				storeCredentials();			
+				usernameButton.setEnabled(false);
 				username.setEnabled(false);
-				//viewFlipper.showNext();
+				progress.setText("Validating username...");
+				viewFlipper.showPrevious();
 				comment.setText("");
 				sendToBlock("VALIDATE");
 			}
@@ -107,17 +100,15 @@ public class LoginUIPanel extends AndroidBlock {
 	public void displayReason(final String reason) {
 		Runnable r = new Runnable() {
 			public void run() {
-				validateButton.setEnabled(true);
-				username.setEnabled(true);
 				comment.setText(reason != null ? reason : "");
 				imageView.setImageResource(R.drawable.android_focused);
-//				viewFlipper.showPrevious();
+				viewFlipper.showNext();
 			}
 		};
 		getHandler().post(r);
 	}
 	
-	private void setAllButtonsEnabeled(boolean enabeled) {
+	private void setPanelButtonsEnabeled(boolean enabeled) {
 		button1.setEnabled(enabeled);
 		button2.setEnabled(enabeled);
 		button3.setEnabled(enabeled);
@@ -134,7 +125,9 @@ public class LoginUIPanel extends AndroidBlock {
 		Runnable r = new Runnable() {
 			
 			public void run() {
-				setAllButtonsEnabeled(true);
+				comment.setText("Username accepted. Enter PIN");
+				viewFlipper.showNext();
+				setPanelButtonsEnabeled(true);
 				pinList.clear();
 			
 				button1.setOnClickListener(new OnClickListener() {		
@@ -207,7 +200,7 @@ public class LoginUIPanel extends AndroidBlock {
 			public void run() {
 				comment.setText(pinList.toString());
 				if (pinList.size() == 4) {
-					setAllButtonsEnabeled(false);
+					setPanelButtonsEnabeled(false);
 					sendToBlock("PASS_COMPLETE");
 				}
 			}
@@ -265,44 +258,22 @@ public class LoginUIPanel extends AndroidBlock {
 		buttonClickCondition();
 	}
 
-	public void checkPINLength() {
-		Runnable r = new Runnable() {
-			
-			public void run() {
-				if (pinList.size() == 4) {
-					sendToBlock("LOGIN");
-				}
-				else {
-					setAllButtonsEnabeled(false);
-					validateButton.setEnabled(true);
-					username.setEnabled(true);
-					sendToBlock("TIMEOUT");
-					comment.setText("Timed out.");
-				}
-			}
-		};
-		activity.runOnUiThread(r);
-	}
-
-	public Credentials validateUsername() {
+	public Credentials setUsername() {
 		credentials.setUserName(username.getText().toString());
 		return credentials;
 	}
 
-	public Credentials validatePIN() {
-		String pin = "";
-		for (String digit : pinList) {
-			pin += digit;
-		}
-		credentials.setPIN(pin);
-		return credentials;
-	}
-
-	public void finishActivity() {
-		Runnable r = new Runnable() {
-			
+	public void setPIN() {
+		Runnable r = new Runnable() {		
 			public void run() {
-				activity.finish();
+				String pin = "";
+				for (String digit : pinList) {
+					pin += digit;
+				}
+				credentials.setPIN(pin);
+				progress.setText("Validating PIN...");
+				viewFlipper.showPrevious();
+				sendToBlock("CREDENTIALS", credentials);
 			}
 		};
 		activity.runOnUiThread(r);
@@ -312,11 +283,9 @@ public class LoginUIPanel extends AndroidBlock {
 		Runnable r = new Runnable() {
 			
 			public void run() {
-				setAllButtonsEnabeled(false);
-				validateButton.setEnabled(true);
-				username.setEnabled(true);
+				comment.setText("Access accepted.");
 				imageView.setImageResource(R.drawable.android_normal);
-				
+				viewFlipper.showNext();
 			}
 		};
 		activity.runOnUiThread(r);
@@ -326,15 +295,34 @@ public class LoginUIPanel extends AndroidBlock {
 		Runnable r = new Runnable() {
 			
 			public void run() {
+				usernameButton.setEnabled(true);
+				username.setEnabled(true);
 				imageView.setImageResource(R.drawable.android_pressed);
 			}
 		};
 		activity.runOnUiThread(r);
 	}
 
-	public void displayACSResponseMessage(String message) {
-		viewFlipper.showNext();
-		comment.setText(message);
+	public void displayACSResponseMessage(final String message) {
+		Runnable r = new Runnable() {			
+			public void run() {
+				viewFlipper.showNext();
+				comment.setText(message);
+			}
+		};
+		activity.runOnUiThread(r);
+	}
+
+	public void timeout() {
+		Runnable r = new Runnable() {
+			
+			public void run() {
+				setPanelButtonsEnabeled(false);
+				comment.setText("Timed out.");	
+//				sendToBlock("TIMEOUT");	
+			}
+		};
+		activity.runOnUiThread(r);
 	}
 
 }

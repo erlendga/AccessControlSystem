@@ -6,13 +6,13 @@
     type="block" 
     >
     <required>
-        <resource path="res/layout/main.xml"/>
+        <resource path="res/layout/login.xml"/>
         <block name="c1" uuid="_94GQMeH3EeCKQv4llUXfRg"/>
         <block name="c2" uuid="_8A22Ed6nEeCsi6itJ7ep6w"/>
         <block name="c4" uuid="_KooBkfpQEeCxGYbLMX9lAg"/>
         <block name="c3" uuid="_mWsqs_-sEeC4xL-1PhDw9A"/>
     </required>
     <extras>
-        <extra key="android_activity" value="no.ntnu.item.arctis.AndroidACSystemActivity"/>
+        <extra key="android_activity" value="no.ntnu.item.arctis.LoginUIPanelActivity"/>
     </extras>
 </block>
