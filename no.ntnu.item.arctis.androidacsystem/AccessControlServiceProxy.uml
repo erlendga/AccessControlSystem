@@ -30,6 +30,7 @@
           <transition xmi:id="_TarHsAB_EeGiTLH1BJle2g" name="/ " source="_8LFboAB-EeGiTLH1BJle2g" target="_Tax1YAB_EeGiTLH1BJle2g"/>
           <transition xmi:id="_CXNKMACAEeGiTLH1BJle2g" name="credentials / " source="_8ZvtQAB_EeGiTLH1BJle2g" target="_8LFboAB-EeGiTLH1BJle2g"/>
           <transition xmi:id="_IIsnsACAEeGiTLH1BJle2g" name="/ " source="_8ZvtQAB_EeGiTLH1BJle2g" target="_IIxgMACAEeGiTLH1BJle2g"/>
+          <transition xmi:id="_4vwgQACqEeG7o8Dj_7nWlg" name="username / " source="_8ZvtQAB_EeGiTLH1BJle2g" target="_bSj3wP_AEeC4xL-1PhDw9A"/>
         </region>
       </ownedBehavior>
       <ownedOperation xmi:id="_xBeyYP-sEeC4xL-1PhDw9A" name="found"/>
@@ -197,4 +198,5 @@
   <arctis:event xmi:id="_Tatj8AB_EeGiTLH1BJle2g" base_Transition="_TarHsAB_EeGiTLH1BJle2g"/>
   <arctis:event xmi:id="_CXO_YACAEeGiTLH1BJle2g" base_Transition="_CXNKMACAEeGiTLH1BJle2g" triggers="_5OfQEP-sEeC4xL-1PhDw9A"/>
   <arctis:event xmi:id="_IIvD8ACAEeGiTLH1BJle2g" base_Transition="_IIsnsACAEeGiTLH1BJle2g"/>
+  <arctis:event xmi:id="_4vy8gACqEeG7o8Dj_7nWlg" base_Transition="_4vwgQACqEeG7o8Dj_7nWlg" triggers="_7uDCwP-sEeC4xL-1PhDw9A"/>
 </xmi:XMI>

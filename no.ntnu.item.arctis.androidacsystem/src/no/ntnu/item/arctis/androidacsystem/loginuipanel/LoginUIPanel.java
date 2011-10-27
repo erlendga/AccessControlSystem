@@ -319,7 +319,7 @@ public class LoginUIPanel extends AndroidBlock {
 			public void run() {
 				setPanelButtonsEnabeled(false);
 				comment.setText("Timed out.");	
-//				sendToBlock("TIMEOUT");	
+				sendToBlock("TIMEOUT");	
 			}
 		};
 		activity.runOnUiThread(r);
