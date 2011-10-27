@@ -8,8 +8,8 @@ public class App extends AndroidBlock {
 
 	public void setRegistryAddress() {
 		Address registry = new Address();
-		registry.setPort("52000");
-		registry.setIP("localhost");
+		registry.setPort("4440");
+		registry.setIP("129.241.209.114");
 		registry.setSessionID("registry");
 		setProperty("register-address", registry);
 	}

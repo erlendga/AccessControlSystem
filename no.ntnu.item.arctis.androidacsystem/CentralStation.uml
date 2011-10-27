@@ -15,6 +15,8 @@
       </ownedBehavior>
       <ownedOperation xmi:id="_SXYCQP-8EeCdhs1bWo4zzA" name="checkMessage"/>
       <ownedOperation xmi:id="_7HUBwACPEeGiTLH1BJle2g" name="makeMessage"/>
+      <ownedOperation xmi:id="_P3t9gACvEeG2xIWnIeXCJg" name="CentralStation"/>
+      <ownedOperation xmi:id="_P3ukkACvEeG2xIWnIeXCJg" name="setHTable"/>
       <ownedParameter xmi:id="_AjxTMP-7EeCdhs1bWo4zzA" name="init"/>
       <ownedParameter xmi:id="_fU1zsP-7EeCdhs1bWo4zzA" name="stop" isStream="true"/>
       <ownedParameter xmi:id="_JEK-MACQEeGiTLH1BJle2g" name="stopped" direction="out"/>

@@ -9,7 +9,7 @@ import no.ntnu.item.arctis.runtime.Block;
 public class CentralStation extends Block {
 	private Hashtable hTable = new Hashtable();
 	
-	public void setHTable(Hashtable hTable){
+	private void setHTable(Hashtable hTable){
 		this.hTable = hTable;
 	}
 	
