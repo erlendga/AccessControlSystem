@@ -8,11 +8,11 @@ import no.ntnu.item.arctis.runtime.Block;
 public class AccessControlServiceProxy extends Block {
 
 	public String found(Address address) {
-		return "Access Control Service is found.";
+		return address + "Access Control Service was discovered.";
 	}
 
 	public String notfound() {
-		return "Access Control Service is not found.";
+		return "Access Control Service was not discovered.";
 	}
 
 	public Message createUsernameMessage(String username) {
@@ -30,20 +30,5 @@ public class AccessControlServiceProxy extends Block {
 	public String extractMessage(Message message) {
 		String  payload = (String)  message.getPayload();
 		return payload;
-//		if (message.getPayload() instanceof String){	
-//			
-//			if(payload.equalsIgnoreCase("un_true")) {
-//				return payload;
-//			} 
-//			else if (payload.equalsIgnoreCase("pin_true")) {
-//				return payload;
-//			}
-//			else {
-//				return false;
-//			}
-//		}
-//		else {
-//			return (Boolean) message.getPayload();
-//		}
 	}
 }

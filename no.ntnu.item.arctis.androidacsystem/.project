@@ -11,6 +11,7 @@
 		<project>no.ntnu.item.arctis.library.objects</project>
 		<project>no.ntnu.item.arctis.library.discovery</project>
 		<project>no.ntnu.item.arctis.examples.smarthome</project>
+		<project>no.ntnu.item.arctis.library</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
