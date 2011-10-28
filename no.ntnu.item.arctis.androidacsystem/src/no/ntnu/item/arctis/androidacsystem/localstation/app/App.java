@@ -21,4 +21,10 @@ public class App extends AndroidBlock {
 		setProperty("local-address", local);
 		return local;
 	}
+
+	public void setAndroidContext() {
+		System.out.println("Setting android context...");
+		android.content.Context context = getContext();
+		setProperty("androidContext", context);
+	}
 }

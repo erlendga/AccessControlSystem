@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 import com.bitreactive.library.android.core.AndroidBlock;
+import com.bitreactive.library.android.core.activity.ArctisAndroidActivity;
 
 public class LoginUIPanel extends AndroidBlock {
 

@@ -6,6 +6,9 @@
     type="system" 
     >
     <required>
+        <library path="lib/android.jar"/>
+        <resource path="lib/android.jar"/>
+        <block name="c1" uuid="_SOIWoQEwEeGRwMWJiT8YgQ"/>
         <block name="c0" uuid="_ciHZUNQJEeCLMf4FTwLQyQ"/>
     </required>
 </block>

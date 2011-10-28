@@ -14,7 +14,7 @@
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_D62dofoyEeCrCqtA_8yVTQ" name="c1" inPartition="_AsS28_oyEeCrCqtA_8yVTQ">
           <argument xmi:type="uml:ValuePin" xmi:id="_D63rwPoyEeCrCqtA_8yVTQ" name="type">
             <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.proxies/ProxyHost.uml#_UEhEIOaPEeC058CbocF-Ag"/>
-            <value xmi:type="uml:LiteralString" xmi:id="_D64S0PoyEeCrCqtA_8yVTQ" name="type" value="Server-129.241.221.230-4439">
+            <value xmi:type="uml:LiteralString" xmi:id="_M5ydQAEyEeGRwMWJiT8YgQ" name="type" value="Server-129.241.208.204-4439">
               <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.proxies/ProxyHost.uml#_UEhEIOaPEeC058CbocF-Ag"/>
             </value>
           </argument>
@@ -54,18 +54,18 @@
   <arctis:system xmi:id="_AsRo0PoyEeCrCqtA_8yVTQ" base_Collaboration="_AsRBwfoyEeCrCqtA_8yVTQ"/>
   <arctis:system xmi:id="_AsSP4PoyEeCrCqtA_8yVTQ" base_Activity="_AsRo0foyEeCrCqtA_8yVTQ"/>
   <graphics:Shape xmi:id="_AsS28voyEeCrCqtA_8yVTQ" x="250" y="220" width="120" height="70" base_Element="_AsSP4foyEeCrCqtA_8yVTQ"/>
-  <graphics:Shape xmi:id="_AsTeAPoyEeCrCqtA_8yVTQ" x="180" y="55" width="613" height="54" base_Element="_AsRo0foyEeCrCqtA_8yVTQ"/>
-  <graphics:Shape xmi:id="_AsTeAfoyEeCrCqtA_8yVTQ" x="180" y="108" width="613" height="415" base_Element="_AsS28_oyEeCrCqtA_8yVTQ"/>
+  <graphics:Shape xmi:id="_AsTeAPoyEeCrCqtA_8yVTQ" x="180" y="54" width="523" height="55" base_Element="_AsRo0foyEeCrCqtA_8yVTQ"/>
+  <graphics:Shape xmi:id="_AsTeAfoyEeCrCqtA_8yVTQ" x="180" y="108" width="523" height="271" base_Element="_AsS28_oyEeCrCqtA_8yVTQ"/>
   <graphics:Shape xmi:id="_D6wXAPoyEeCrCqtA_8yVTQ" x="18" y="18" base_Element="_D6t6wPoyEeCrCqtA_8yVTQ" orientation="north"/>
   <graphics:Shape xmi:id="_D6yzQPoyEeCrCqtA_8yVTQ" x="69" y="34" base_Element="_D6wXAfoyEeCrCqtA_8yVTQ" orientation="west"/>
   <graphics:Shape xmi:id="_D61PgPoyEeCrCqtA_8yVTQ" x="20" y="91" base_Element="_D6zaUPoyEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_D62doPoyEeCrCqtA_8yVTQ" x="288" y="342" width="199" height="90" aux1="normal" base_Element="_D6kw0PoyEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_D62doPoyEeCrCqtA_8yVTQ" x="234" y="198" width="199" height="73" aux1="normal" base_Element="_D6kw0PoyEeCrCqtA_8yVTQ" orientation="south"/>
   <graphics:Shape xmi:id="_D7AOoPoyEeCrCqtA_8yVTQ" x="18" y="18" base_Element="_D6_AgfoyEeCrCqtA_8yVTQ" orientation="north"/>
-  <graphics:Shape xmi:id="_D7CD0PoyEeCrCqtA_8yVTQ" x="1" y="36" base_Element="_D7A1sPoyEeCrCqtA_8yVTQ" orientation="west"/>
+  <graphics:Shape xmi:id="_D7CD0PoyEeCrCqtA_8yVTQ" x="8" y="31" base_Element="_D7A1sPoyEeCrCqtA_8yVTQ" orientation="west"/>
   <graphics:Shape xmi:id="_D7DR8PoyEeCrCqtA_8yVTQ" x="18" y="18" base_Element="_D7CD0foyEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_D7D5APoyEeCrCqtA_8yVTQ" x="540" y="324" width="198" height="109" aux1="normal" base_Element="_D62dofoyEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_D7FuMPoyEeCrCqtA_8yVTQ" x="333" y="297" base_Element="_D7EgEPoyEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_D7IKcPoyEeCrCqtA_8yVTQ" x="540" y="216" width="181" height="55" base_Element="_D7FuMfoyEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_D7LNwPoyEeCrCqtA_8yVTQ" x="540" y="252" width="179" height="55" base_Element="_D7IKcfoyEeCrCqtA_8yVTQ" orientation="south"/>
-  <graphics:Shape xmi:id="_oYSrEPoyEeCrCqtA_8yVTQ" x="621" y="171" base_Element="_oYQ14PoyEeCrCqtA_8yVTQ"/>
+  <graphics:Shape xmi:id="_D7D5APoyEeCrCqtA_8yVTQ" x="504" y="288" width="181" height="73" aux1="normal" base_Element="_D62dofoyEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_D7FuMPoyEeCrCqtA_8yVTQ" x="261" y="153" base_Element="_D7EgEPoyEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_D7IKcPoyEeCrCqtA_8yVTQ" x="468" y="180" width="163" height="55" base_Element="_D7FuMfoyEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_D7LNwPoyEeCrCqtA_8yVTQ" x="468" y="216" width="163" height="55" base_Element="_D7IKcfoyEeCrCqtA_8yVTQ" orientation="south"/>
+  <graphics:Shape xmi:id="_oYSrEPoyEeCrCqtA_8yVTQ" x="531" y="153" base_Element="_oYQ14PoyEeCrCqtA_8yVTQ"/>
 </xmi:XMI>

@@ -7,6 +7,7 @@
 		<project>no.ntnu.item.arctis.library.discovery</project>
 		<project>com.bitreactive.library.android.core</project>
 		<project>com.bitreactive.library.android.dialogs</project>
+		<project>no.ntnu.item.arctis.examples.smarthome</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
