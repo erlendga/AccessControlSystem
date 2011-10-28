@@ -9,7 +9,7 @@
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_TBPDYPoxEeCrCqtA_8yVTQ" name="c0" inPartition="_iJQA0fowEeChXsA8aa9l5w">
           <argument xmi:type="uml:ValuePin" xmi:id="_TBRfoPoxEeCrCqtA_8yVTQ" name="type">
             <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.proxies/ProxyHost.uml#_UEhEIOaPEeC058CbocF-Ag"/>
-            <value xmi:type="uml:LiteralString" xmi:id="_7SOHoAFHEeGlSfkcrgluig" name="type" value="Client-129.241.208.204-4439-5544">
+            <value xmi:type="uml:LiteralString" xmi:id="_5GiFoAFnEeGbXIGJ9bZXEQ" name="type" value="Client-78.91.16.118-4439-5544">
               <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.proxies/ProxyHost.uml#_UEhEIOaPEeC058CbocF-Ag"/>
             </value>
           </argument>

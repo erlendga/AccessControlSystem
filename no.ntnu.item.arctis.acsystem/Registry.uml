@@ -14,7 +14,7 @@
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_D62dofoyEeCrCqtA_8yVTQ" name="c1" inPartition="_AsS28_oyEeCrCqtA_8yVTQ">
           <argument xmi:type="uml:ValuePin" xmi:id="_D63rwPoyEeCrCqtA_8yVTQ" name="type">
             <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.proxies/ProxyHost.uml#_UEhEIOaPEeC058CbocF-Ag"/>
-            <value xmi:type="uml:LiteralString" xmi:id="_M5ydQAEyEeGRwMWJiT8YgQ" name="type" value="Server-129.241.208.204-4439">
+            <value xmi:type="uml:LiteralString" xmi:id="_7CqbIAFnEeGbXIGJ9bZXEQ" name="type" value="Server-78.91.16.118-4439">
               <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.proxies/ProxyHost.uml#_UEhEIOaPEeC058CbocF-Ag"/>
             </value>
           </argument>

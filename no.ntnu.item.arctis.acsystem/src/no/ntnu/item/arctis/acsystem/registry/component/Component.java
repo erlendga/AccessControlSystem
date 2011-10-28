@@ -7,8 +7,8 @@ public class Component extends Block{
 
 	public void setRegistryAddress() {
 		Address registry = new Address();
-		registry.setPort("4439");
-		registry.setIP("129.241.208.204");
+		registry.setPort("52000");
+		registry.setIP("localhost");
 		registry.setSessionID("registry");
 		setProperty("register-address", registry);
 	}

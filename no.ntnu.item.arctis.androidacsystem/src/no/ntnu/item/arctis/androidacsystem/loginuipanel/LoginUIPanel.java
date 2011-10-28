@@ -271,7 +271,7 @@ public class LoginUIPanel extends AndroidBlock {
 				for (String digit : pinList) {
 					pin += digit;
 				}
-				credentials.setPIN(pin);
+				credentials.setPassword(pin);
 				progress.setText("Validating PIN...");
 				viewFlipper.showPrevious();
 				sendToBlock("CREDENTIALS", credentials);

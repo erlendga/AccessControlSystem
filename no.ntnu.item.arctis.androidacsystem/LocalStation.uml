@@ -30,7 +30,7 @@
           <argument xmi:id="_WlGFQP_PEeCvT7yPhG91Sw" name="stop" inPartition="_bUvJoPo8EeCXx8L99XuxvA"/>
           <argument xmi:type="uml:ValuePin" xmi:id="_X9JAgAEzEeGRwMWJiT8YgQ" name="type">
             <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.proxies/ProxyHost.uml#_UEhEIOaPEeC058CbocF-Ag"/>
-            <value xmi:type="uml:LiteralString" xmi:id="_X9KOoAEzEeGRwMWJiT8YgQ" name="type" value="AndroidClient-129.241.208.204-4439-5544">
+            <value xmi:type="uml:LiteralString" xmi:id="_S5oUcAFhEeG5Kp0TcvbYlA" name="type" value="AndroidClient-78.91.3.28-4439-5544">
               <type xmi:type="uml:PrimitiveType" href="../no.ntnu.item.arctis.library.proxies/ProxyHost.uml#_UEhEIOaPEeC058CbocF-Ag"/>
             </value>
           </argument>
