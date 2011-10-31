@@ -20,4 +20,10 @@ public class AndroidLocalStation extends Block {
 	public String setDenyMessage() {
 		return "Access denied";
 	}
+
+	public String getCredentials(Credentials credentials) {
+		String username = credentials.getUserName();
+		String password = credentials.getPassword();
+		return username + "-" + password;
+	}
 }

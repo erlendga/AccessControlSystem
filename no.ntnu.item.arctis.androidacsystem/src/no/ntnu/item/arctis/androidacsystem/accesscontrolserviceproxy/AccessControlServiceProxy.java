@@ -21,7 +21,7 @@ public class AccessControlServiceProxy extends Block {
 		return message;
 	}
 
-	public Message createCredentialsMesssage(Credentials credentials) {
+	public Message createCredentialsMesssage(String credentials) {
 		Message message = new Message("pin_access");
 		message.setPayload(credentials);
 		return message;

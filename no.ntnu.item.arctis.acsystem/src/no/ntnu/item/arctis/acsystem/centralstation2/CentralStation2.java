@@ -2,7 +2,6 @@ package no.ntnu.item.arctis.acsystem.centralstation2;
 
 import java.util.Hashtable;
 
-import no.ntnu.item.arctis.library.objects.login.Credentials;
 import no.ntnu.item.arctis.library.proxies.Message;
 import no.ntnu.item.arctis.runtime.Block;
 
@@ -32,11 +31,11 @@ public class CentralStation2 extends Block {
 			}
 		}
 		else{ 
-			Credentials a = new Credentials();
-			a = (Credentials)msg.getPayload();
-			String pwd = a.getPassword();
-			String usr = a.getUserName();
-			if(hTable.containsKey(usr) && hTable.get(usr).equals(pwd)){
+			String[] userList = msg.getPayload().toString().split("-");
+			String username = userList[0]; 
+			String password = userList[1];
+			
+			if(hTable.containsKey(username) && hTable.get(username).equals(password)){
 				return makeMessage(msg, "pin_true");
 			}
 			else return makeMessage(msg, "nok");

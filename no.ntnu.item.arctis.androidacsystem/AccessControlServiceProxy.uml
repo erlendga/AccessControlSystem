@@ -41,7 +41,7 @@
       <ownedOperation xmi:id="_1u-zkP-9EeC4xL-1PhDw9A" name="createCredentialsMesssage"/>
       <ownedParameter xmi:id="_qzdJ4P-sEeC4xL-1PhDw9A" name="start"/>
       <ownedParameter xmi:id="_y95bwP-sEeC4xL-1PhDw9A" name="acsFound" type="_fZLCcP-tEeC4xL-1PhDw9A" direction="out" isStream="true"/>
-      <ownedParameter xmi:id="_5OhFQP-sEeC4xL-1PhDw9A" name="credentials" type="_YZwmAP-9EeC4xL-1PhDw9A" isStream="true"/>
+      <ownedParameter xmi:id="_5OhFQP-sEeC4xL-1PhDw9A" name="credentials" type="_fZLCcP-tEeC4xL-1PhDw9A" isStream="true"/>
       <ownedParameter xmi:id="_7uEQ4P-sEeC4xL-1PhDw9A" name="username" type="_fZLCcP-tEeC4xL-1PhDw9A" isStream="true"/>
       <ownedParameter xmi:id="_fod7UP-wEeC4xL-1PhDw9A" name="acsNotFound" type="_fZLCcP-tEeC4xL-1PhDw9A" direction="out" isStream="true"/>
       <ownedParameter xmi:id="_mrhtYP-7EeC4xL-1PhDw9A" name="usernameOK" direction="out" isStream="true"/>
@@ -69,7 +69,7 @@
         <result xmi:id="_fZLpgP-tEeC4xL-1PhDw9A" name="" outgoing="_hUHFIP-tEeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_fZLCcP-tEeC4xL-1PhDw9A"/>
       </node>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_y94NoP-sEeC4xL-1PhDw9A" name="acsFound" incoming="_hUHFIP-tEeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_fZLCcP-tEeC4xL-1PhDw9A" parameter="_y95bwP-sEeC4xL-1PhDw9A"/>
-      <node xmi:type="uml:ActivityParameterNode" xmi:id="_5OfQEP-sEeC4xL-1PhDw9A" name="credentials" outgoing="_1TYkEP-6EeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_YZwmAP-9EeC4xL-1PhDw9A" parameter="_5OhFQP-sEeC4xL-1PhDw9A"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_5OfQEP-sEeC4xL-1PhDw9A" name="credentials" outgoing="_1TYkEP-6EeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_fZLCcP-tEeC4xL-1PhDw9A" parameter="_5OhFQP-sEeC4xL-1PhDw9A"/>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_7uDCwP-sEeC4xL-1PhDw9A" name="username" outgoing="_pwtPQP-zEeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_fZLCcP-tEeC4xL-1PhDw9A" parameter="_7uEQ4P-sEeC4xL-1PhDw9A"/>
       <node xmi:type="uml:CallBehaviorAction" xmi:id="_-gnRAP-sEeC4xL-1PhDw9A" name="c1" inPartition="_mWtRwP-sEeC4xL-1PhDw9A">
         <argument xmi:id="_-gq7YP-sEeC4xL-1PhDw9A" name="send" incoming="_3cHyMP-6EeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A">
@@ -94,7 +94,7 @@
         <result xmi:id="_oXziof-zEeC4xL-1PhDw9A" name="" outgoing="_qD1moP-zEeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_oXzioP-zEeC4xL-1PhDw9A"/>
       </node>
       <node xmi:type="uml:CallOperationAction" xmi:id="_nKMb0P-6EeC4xL-1PhDw9A" name="o3" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" operation="_1u-zkP-9EeC4xL-1PhDw9A">
-        <argument xmi:id="_4XZAQP-9EeC4xL-1PhDw9A" name="credentials" incoming="_1TYkEP-6EeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_YZwmAP-9EeC4xL-1PhDw9A"/>
+        <argument xmi:id="_4XZAQP-9EeC4xL-1PhDw9A" name="credentials" incoming="_1TYkEP-6EeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_fZLCcP-tEeC4xL-1PhDw9A"/>
         <result xmi:id="_yS7q0P-6EeC4xL-1PhDw9A" name="" outgoing="_3SKk8P-6EeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A" type="_oXzioP-zEeC4xL-1PhDw9A"/>
       </node>
       <node xmi:type="uml:MergeNode" xmi:id="_2MjnwP-6EeC4xL-1PhDw9A" name="m0" outgoing="_3cHyMP-6EeC4xL-1PhDw9A" incoming="_qD1moP-zEeC4xL-1PhDw9A _3SKk8P-6EeC4xL-1PhDw9A" inPartition="_mWtRwP-sEeC4xL-1PhDw9A"/>
@@ -160,7 +160,7 @@
   <graphics:Shape xmi:id="_vIM8kP-sEeC4xL-1PhDw9A" x="468" y="252" width="54" height="19" base_Element="_vILucP-sEeC4xL-1PhDw9A" orientation="north"/>
   <graphics:Shape xmi:id="_xBjq4P-sEeC4xL-1PhDw9A" x="252" y="234" width="132" height="55" base_Element="_xBdkQP-sEeC4xL-1PhDw9A" orientation="west"/>
   <graphics:Shape xmi:id="_zeN6kP-sEeC4xL-1PhDw9A" x="72" y="252" base_Element="_y94NoP-sEeC4xL-1PhDw9A" orientation="west"/>
-  <graphics:Shape xmi:id="_59Td4P-sEeC4xL-1PhDw9A" x="36" y="396" base_Element="_5OfQEP-sEeC4xL-1PhDw9A" orientation="west"/>
+  <graphics:Shape xmi:id="_59Td4P-sEeC4xL-1PhDw9A" x="54" y="396" base_Element="_5OfQEP-sEeC4xL-1PhDw9A" orientation="west"/>
   <graphics:Shape xmi:id="_8UQHIP-sEeC4xL-1PhDw9A" x="72" y="360" base_Element="_7uDCwP-sEeC4xL-1PhDw9A" orientation="west"/>
   <graphics:Shape xmi:id="_-gy3MP-sEeC4xL-1PhDw9A" x="129" y="84" base_Element="_-gptQP-sEeC4xL-1PhDw9A" orientation="east"/>
   <graphics:Shape xmi:id="_-gzeQP-sEeC4xL-1PhDw9A" x="18" y="18" base_Element="_-gxpEP-sEeC4xL-1PhDw9A" orientation="south"/>
