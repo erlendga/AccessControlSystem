@@ -1,5 +1,8 @@
 package no.ntnu.item.arctis.acsystem.centralstation2;
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Hashtable;
 
 import no.ntnu.item.arctis.library.proxies.Message;
@@ -23,23 +26,28 @@ public class CentralStation2 extends Block {
 
 	public Message checkMessage(Message msg) {
 		if(msg.getPayload() instanceof String){
-			if(hTable.containsKey(msg.getPayload())){
-				return makeMessage(msg, "un_true");
+			
+			if (msg.getPayload().toString().contains(":")) {
+				String[] userList = msg.getPayload().toString().split(":");
+				String username = userList[0]; 
+				String password = userList[1];
+				//String paswdHash = getMD5(password);			
+				
+				if(hTable.containsKey(username) && getMD5(hTable.get(username).toString()).equals(password)){
+					return makeMessage(msg, "pin_true");
+				}
+				else return makeMessage(msg, "nok");
 			}
 			else {
-				return makeMessage(msg, "nok");
+				if(hTable.containsKey(msg.getPayload())){
+				return makeMessage(msg, "un_true");
+				}
+				else {
+					return makeMessage(msg, "nok");
+				}
 			}
 		}
-		else{ 
-			String[] userList = msg.getPayload().toString().split("-");
-			String username = userList[0]; 
-			String password = userList[1];
-			
-			if(hTable.containsKey(username) && hTable.get(username).equals(password)){
-				return makeMessage(msg, "pin_true");
-			}
-			else return makeMessage(msg, "nok");
-		}
+		else return makeMessage(msg, "nok");
 	}
 	
 	private Message makeMessage(Message msg, String payload){
@@ -48,5 +56,18 @@ public class CentralStation2 extends Block {
 		response.setSender(msg.getReceiver().getCopy());	
 		response.setPayload(payload);
 		return response;	
+	}
+	private static String getMD5(String input) {	
+		try {
+			MessageDigest md = MessageDigest.getInstance("MD5");
+			byte[] messageDigest = md .digest(input.getBytes());
+			BigInteger number = new BigInteger(1, messageDigest );
+			String hashtext = number.toString();
+			return hashtext;
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+			return "";
+		}
+		
 	}
 }
