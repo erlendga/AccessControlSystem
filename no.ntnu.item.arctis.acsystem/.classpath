@@ -7,7 +7,6 @@
 	<classpathentry kind="src" path="/no.ntnu.item.arctis.library.discovery"/>
 	<classpathentry kind="src" path="/com.bitreactive.library.android.core"/>
 	<classpathentry kind="src" path="/com.bitreactive.library.android.dialogs"/>
-	<classpathentry kind="src" path="/no.ntnu.item.arctis.examples.smarthome"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/no.ntnu.item.arctis.library.objects"/>
 	<classpathentry kind="lib" path="lib/android.jar"/>
 	<classpathentry kind="output" path="bin"/>
