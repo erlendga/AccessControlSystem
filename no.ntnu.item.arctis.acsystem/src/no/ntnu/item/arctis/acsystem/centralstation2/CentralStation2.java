@@ -25,6 +25,7 @@ public class CentralStation2 extends Block {
 	}
 
 	public Message checkMessage(Message msg) {
+		
 		if(msg.getPayload() instanceof String){
 			
 			if (msg.getPayload().toString().contains(":")) {
