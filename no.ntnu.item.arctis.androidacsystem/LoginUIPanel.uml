@@ -250,8 +250,7 @@
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_P9cKIfpQEeCxGYbLMX9lAg" name="java.lang.String"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_P91ywPpQEeCxGYbLMX9lAg" name="int"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_P96EMfpQEeCxGYbLMX9lAg" name="java.lang.Class"/>
-    <packagedElement xmi:type="uml:Signal" xmi:id="_P-HfkPpQEeCxGYbLMX9lAg" name="LOGIN"/>
-    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_P-IGofpQEeCxGYbLMX9lAg" name="" signal="_P-HfkPpQEeCxGYbLMX9lAg"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_P-IGofpQEeCxGYbLMX9lAg" name=""/>
     <packagedElement xmi:type="uml:Signal" xmi:id="_j-spQPphEeCxGYbLMX9lAg" name="VALIDATE"/>
     <packagedElement xmi:type="uml:SignalEvent" xmi:id="_j_LxcfphEeCxGYbLMX9lAg" name="" signal="_j-spQPphEeCxGYbLMX9lAg"/>
     <packagedElement xmi:type="uml:SignalEvent" xmi:id="_dqnmoPpiEeCxGYbLMX9lAg" name="r1"/>
@@ -291,8 +290,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:SignalEvent" xmi:id="_CX3_cPpoEeCxGYbLMX9lAg" name="r11"/>
     <packagedElement xmi:type="uml:SignalEvent" xmi:id="_F44oEPpoEeCxGYbLMX9lAg" name="r12"/>
-    <packagedElement xmi:type="uml:Signal" xmi:id="_IStmMPpoEeCxGYbLMX9lAg" name="TIMEOUT"/>
-    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_ITGAsPpoEeCxGYbLMX9lAg" name="" signal="_IStmMPpoEeCxGYbLMX9lAg"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_ITGAsPpoEeCxGYbLMX9lAg" name=""/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_wUVIMPpsEeCxGYbLMX9lAg" name="java.lang.Object"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_5zvB4PpsEeCxGYbLMX9lAg" name="no.ntnu.item.arctis.LoginUIPanelActivity"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_t2chwPpyEeCxGYbLMX9lAg" name="android.text.Editable"/>
@@ -337,7 +335,7 @@
     </profileApplication>
   </uml:Package>
   <graphics:Shape xmi:id="_KopPsvpQEeCxGYbLMX9lAg" x="180" y="54" width="955" height="55" base_Element="_KooBkfpQEeCxGYbLMX9lAg"/>
-  <graphics:Shape xmi:id="_Kop2wPpQEeCxGYbLMX9lAg" x="180" y="108" width="955" height="883" base_Element="_KooooPpQEeCxGYbLMX9lAg"/>
+  <graphics:Shape xmi:id="_Kop2wPpQEeCxGYbLMX9lAg" x="180" y="108" width="955" height="613" base_Element="_KooooPpQEeCxGYbLMX9lAg"/>
   <arctis:esm xmi:id="_Kop2wvpQEeCxGYbLMX9lAg" base_StateMachine="_Kop2wfpQEeCxGYbLMX9lAg"/>
   <arctis:location xmi:id="_P9KdUPpQEeCxGYbLMX9lAg" base_Variable="_P9IBEfpQEeCxGYbLMX9lAg" partition="_KooooPpQEeCxGYbLMX9lAg"/>
   <graphics:Shape xmi:id="_P9LEYPpQEeCxGYbLMX9lAg" x="774" y="126" base_Element="_P9IBEfpQEeCxGYbLMX9lAg" orientation="south"/>
@@ -345,7 +343,7 @@
   <graphics:Shape xmi:id="_P9NgoPpQEeCxGYbLMX9lAg" x="558" y="126" base_Element="_P9LrcfpQEeCxGYbLMX9lAg" orientation="south"/>
   <graphics:Shape xmi:id="_P9YfwPpQEeCxGYbLMX9lAg" x="306" y="144" width="199" height="55" base_Element="_P9WDgfpQEeCxGYbLMX9lAg" orientation="south"/>
   <graphics:Shape xmi:id="_P9f0gPpQEeCxGYbLMX9lAg" x="1134" y="270" base_Element="_P9cKIvpQEeCxGYbLMX9lAg" orientation="east"/>
-  <graphics:Shape xmi:id="_P9iQwPpQEeCxGYbLMX9lAg" x="576" y="990" base_Element="_P9gbkPpQEeCxGYbLMX9lAg" orientation="south"/>
+  <graphics:Shape xmi:id="_P9iQwPpQEeCxGYbLMX9lAg" x="972" y="720" base_Element="_P9gbkPpQEeCxGYbLMX9lAg" orientation="south"/>
   <graphics:Shape xmi:id="_P9so0PpQEeCxGYbLMX9lAg" x="18" y="162" base_Element="_P9iQwfpQEeCxGYbLMX9lAg" orientation="west"/>
   <graphics:Shape xmi:id="_P-G4gPpQEeCxGYbLMX9lAg" x="513" y="261" width="37" height="37" base_Element="_P-FqYfpQEeCxGYbLMX9lAg" orientation="south"/>
   <graphics:Shape xmi:id="_P-ItsPpQEeCxGYbLMX9lAg" x="450" y="306" width="163" height="55" base_Element="_P-G4gfpQEeCxGYbLMX9lAg" orientation="south"/>
@@ -378,19 +376,19 @@
   <graphics:Shape xmi:id="_lVtl4PppEeCxGYbLMX9lAg" x="612" y="306" width="200" height="55" base_Element="_lVh_sPppEeCxGYbLMX9lAg" orientation="east"/>
   <graphics:Shape xmi:id="_9SYaYPppEeCxGYbLMX9lAg" x="1134" y="324" base_Element="_8VoeQPppEeCxGYbLMX9lAg" orientation="east"/>
   <arctis:event xmi:id="_2NrMEPpqEeCxGYbLMX9lAg" base_Transition="_2Nov0PpqEeCxGYbLMX9lAg" triggers="_P9iQwfpQEeCxGYbLMX9lAg"/>
-  <graphics:Shape xmi:id="_pzmdwPp6EeCzENY8EgZ39g" x="486" y="846" width="200" height="55" base_Element="_pw0PgPp6EeCzENY8EgZ39g" orientation="east"/>
-  <graphics:Shape xmi:id="_lyjt8PrtEeCmMqKYywGirQ" x="855" y="747" width="37" height="37" base_Element="_lyhRsPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_sYjxkPrtEeCmMqKYywGirQ" aux1="143 0 0 -396 " base_Element="_q1jtwPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_tPNFsPrtEeCmMqKYywGirQ" aux1="143 0 0 -360 " base_Element="_qaEEkPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_uNmnoPrtEeCmMqKYywGirQ" aux1="143 0 0 -324 " base_Element="_qEHCsPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_u8j_YPrtEeCmMqKYywGirQ" aux1="143 0 0 -288 " base_Element="_pwhYUPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_vvJS4PrtEeCmMqKYywGirQ" aux1="143 0 0 -252 " base_Element="_pXaUwPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_wYRIYPrtEeCmMqKYywGirQ" aux1="143 0 0 -216 " base_Element="_pBDqQPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_w7YcgPrtEeCmMqKYywGirQ" aux1="143 0 0 -180 " base_Element="_ouFD4PrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_xvk5kPrtEeCmMqKYywGirQ" aux1="143 0 0 -144 " base_Element="_oay7gPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_ygVoIPrtEeCmMqKYywGirQ" aux1="143 0 0 -108 " base_Element="_oIVSgPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_zHpfwPrtEeCmMqKYywGirQ" aux1="143 0 0 -72 " base_Element="_n5dwEPrtEeCmMqKYywGirQ"/>
-  <graphics:Shape xmi:id="_z7fXgPrtEeCmMqKYywGirQ" x="774" y="792" width="200" height="55" base_Element="_z7c7QPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_pzmdwPp6EeCzENY8EgZ39g" x="882" y="522" width="200" height="55" base_Element="_pw0PgPp6EeCzENY8EgZ39g" orientation="east"/>
+  <graphics:Shape xmi:id="_lyjt8PrtEeCmMqKYywGirQ" x="855" y="495" width="37" height="37" base_Element="_lyhRsPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_sYjxkPrtEeCmMqKYywGirQ" aux1="143 0 0 -144 " base_Element="_q1jtwPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_tPNFsPrtEeCmMqKYywGirQ" aux1="143 0 0 -108 " base_Element="_qaEEkPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_uNmnoPrtEeCmMqKYywGirQ" aux1="143 0 0 -72 " base_Element="_qEHCsPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_u8j_YPrtEeCmMqKYywGirQ" aux1="143 0 0 -36 " base_Element="_pwhYUPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_vvJS4PrtEeCmMqKYywGirQ" aux1="125 0 -18 0 " base_Element="_pXaUwPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_wYRIYPrtEeCmMqKYywGirQ" aux1="143 0 0 36 " base_Element="_pBDqQPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_w7YcgPrtEeCmMqKYywGirQ" aux1="143 0 0 72 " base_Element="_ouFD4PrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_xvk5kPrtEeCmMqKYywGirQ" aux1="143 0 0 108 " base_Element="_oay7gPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_ygVoIPrtEeCmMqKYywGirQ" aux1="143 0 0 144 " base_Element="_oIVSgPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_zHpfwPrtEeCmMqKYywGirQ" aux1="143 0 0 180 " base_Element="_n5dwEPrtEeCmMqKYywGirQ"/>
+  <graphics:Shape xmi:id="_z7fXgPrtEeCmMqKYywGirQ" x="882" y="486" width="200" height="55" base_Element="_z7c7QPrtEeCmMqKYywGirQ"/>
   <graphics:Shape xmi:id="_lXwmYPywEeCKr5qWD93rfQ" x="918" y="216" width="200" height="55" base_Element="_lXSFQPywEeCKr5qWD93rfQ"/>
   <graphics:Shape xmi:id="_CXAXYPzGEeCXt9mJXxn89Q" x="819" y="261" width="37" height="37" base_Element="_COtXAPzGEeCXt9mJXxn89Q"/>
   <graphics:Shape xmi:id="_OxYNYPzGEeCXt9mJXxn89Q" x="558" y="252" width="199" height="55" base_Element="_Ov3xgPzGEeCXt9mJXxn89Q"/>
@@ -399,7 +397,7 @@
   <graphics:Shape xmi:id="_X9Pm8P-uEeC4xL-1PhDw9A" x="1134" y="162" base_Element="_ViL5wP-uEeC4xL-1PhDw9A" orientation="east"/>
   <graphics:Shape xmi:id="_hILsgP-uEeC4xL-1PhDw9A" x="504" y="162" width="55" height="19" base_Element="_hIJQQP-uEeC4xL-1PhDw9A" orientation="south"/>
   <graphics:Shape xmi:id="_uRuVoP-uEeC4xL-1PhDw9A" x="558" y="144" width="200" height="55" base_Element="_uRg6QP-uEeC4xL-1PhDw9A" orientation="west"/>
-  <graphics:Shape xmi:id="_2VEbwACEEeGiTLH1BJle2g" x="486" y="900" width="200" height="55" base_Element="_2VAxYACEEeGiTLH1BJle2g"/>
+  <graphics:Shape xmi:id="_2VEbwACEEeGiTLH1BJle2g" x="882" y="558" width="200" height="55" base_Element="_2VAxYACEEeGiTLH1BJle2g"/>
   <graphics:Shape xmi:id="_-5VIkACUEeGiTLH1BJle2g" aux1="-127 0 0 -36 " base_Element="_tC85APzHEeCG8ulfyNlV0g"/>
   <arctis:event xmi:id="_cpMToACpEeG7o8Dj_7nWlg" base_Transition="_cpJQUACpEeG7o8Dj_7nWlg" effects="_8VoeQPppEeCxGYbLMX9lAg"/>
   <arctis:event xmi:id="_jTfBYACpEeG7o8Dj_7nWlg" base_Transition="_jTb-EACpEeG7o8Dj_7nWlg" triggers="_ViL5wP-uEeC4xL-1PhDw9A"/>
@@ -408,5 +406,5 @@
   <arctis:event xmi:id="_rD97IACpEeG7o8Dj_7nWlg" base_Transition="_rD630ACpEeG7o8Dj_7nWlg" effects="_P9gbkPpQEeCxGYbLMX9lAg"/>
   <arctis:event xmi:id="_uEo20ACpEeG7o8Dj_7nWlg" base_Transition="_uEmakACpEeG7o8Dj_7nWlg" triggers="_P-O0UfpQEeCxGYbLMX9lAg"/>
   <arctis:event xmi:id="__Af7AACpEeG7o8Dj_7nWlg" base_Transition="__AdewACpEeG7o8Dj_7nWlg"/>
-  <graphics:Shape xmi:id="_7-ICsAx8EeGdpqqa0_OIWA" aux1="-288 0 -1 -54 " base_Element="_5rvwYAx8EeGdpqqa0_OIWA"/>
+  <graphics:Shape xmi:id="_7-ICsAx8EeGdpqqa0_OIWA" aux1="" base_Element="_5rvwYAx8EeGdpqqa0_OIWA"/>
 </xmi:XMI>

@@ -1,6 +1,5 @@
 package no.ntnu.item.arctis.androidacsystem.accesscontrolserviceproxy;
 
-import no.ntnu.item.arctis.library.objects.login.Credentials;
 import no.ntnu.item.arctis.library.proxies.Address;
 import no.ntnu.item.arctis.library.proxies.Message;
 import no.ntnu.item.arctis.runtime.Block;
@@ -8,7 +7,7 @@ import no.ntnu.item.arctis.runtime.Block;
 public class AccessControlServiceProxy extends Block {
 
 	public String found(Address address) {
-		return address + "Access Control Service was discovered.";
+		return "Access Control Service was discovered.";
 	}
 
 	public String notfound() {

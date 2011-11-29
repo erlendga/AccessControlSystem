@@ -16,7 +16,6 @@ import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 import com.bitreactive.library.android.core.AndroidBlock;
-import com.bitreactive.library.android.core.activity.ArctisAndroidActivity;
 
 public class LoginUIPanel extends AndroidBlock {
 
@@ -27,7 +26,6 @@ public class LoginUIPanel extends AndroidBlock {
 	public final java.lang.String description;
 	// Instance parameter. Edit only in overview page.
 	public final java.lang.String title;
-	private TextView descriptionField;
 	private Button usernameButton;
 	private ViewFlipper viewFlipper;
 	private EditText username;
@@ -313,17 +311,4 @@ public class LoginUIPanel extends AndroidBlock {
 		};
 		activity.runOnUiThread(r);
 	}
-
-	public void timeout() {
-		Runnable r = new Runnable() {
-			
-			public void run() {
-				setPanelButtonsEnabeled(false);
-				comment.setText("Timed out.");	
-				sendToBlock("TIMEOUT");	
-			}
-		};
-		activity.runOnUiThread(r);
-	}
-
 }
